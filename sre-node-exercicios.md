@@ -1,4 +1,4 @@
-2.1.2 Desafio - Timeout
+##2.1.2 Desafio - Timeout
 Ajustar configurações de timeout e corrigir erro de timeout execedido ao invocar o serviço
 
 // INSIRA SUA ANÁLISE OU PARECER ABAIXO
@@ -9,7 +9,7 @@ Ao alterar a simulação de timeout para 3000 e a simulação de resposta para 2
     "Resposta da chamada externa"
 
 
-2.1.2 Desafio - Rate Limit
+##2.1.2 Desafio - Rate Limit
 Alterar limite de requisições permitidas para 100 num intervalo de 1 minuto e escrever uma função para simular o erro de Rate Limit.
 
 // INSIRA SUA ANÁLISE OU PARECER ABAIXO
@@ -30,4 +30,13 @@ e reiniciar o serviço.
 Desta forma, precisamos realizar mais de 100 chamadas para poder obter o erro
 
     Você excedeu o limite de requisições, tente novamente mais tarde.
+
+
+##2.3.2 Desafio - Bulkhead
+Aumentar quantidade de chamadas simultâneas e avaliar o comportamento. Screen Shot 2024-09-13 at 22 36 17
+
+BÔNUS: implementar método que utilizando threads para realizar as chamadas e logar na tela
+
+// INSIRA SUA ANÁLISE OU PARECER ABAIXO
+
 
